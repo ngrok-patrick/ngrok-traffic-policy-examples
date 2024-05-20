@@ -48,8 +48,9 @@ inbound:
 outbound: []
 ```
 <br/>
+
 ### Check for Referrer Header
-**Not All** browsers support this, so use at your own risks. I had a Customer who wanted to use this.
+Not all browsers support this, so use at your own risks. I had a Customer who wanted to use this.
 ```
   - expressions:
       - hasReqHeader('referrer') != true
@@ -58,6 +59,5 @@ outbound: []
       - type: deny
 ```
 <br/>
-### 
 
 
